@@ -140,3 +140,22 @@ body {
     width: 0%;
     transition: width 0.1s linear;
   }
+
+
+  /* This is where header and footer changes are made */
+
+  header.page-header {
+    background: no-repeat left/cover url(images/header-rainbow.jpg);
+    font-family: 'Lato';
+    display:flex; 
+    height: auto;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw) / 100) 'Lato';
+    margin: 10%;
+}
