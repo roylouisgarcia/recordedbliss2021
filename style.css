@@ -94,14 +94,14 @@ h3{
 .action-btn {
     background-color: #fff;
     border: 0;
-    color: #dfdbdf;
+    color: #85a3e0;
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
     margin: 0 20px;
 }
 .action-btn-big {
-    color: #cdc2d0;
+    color: rgb(0, 48, 143);
     font-size: 30px;
 }
 .action-btn:focus {
@@ -110,6 +110,7 @@ h3{
 
 .music-info{
     background-color: rgba(200, 200, 205, 0.5);
+    font-family: 'Lato';
     border-radius: 15px 15px 0 0;
     position: absolute;
     top: 0;
@@ -141,10 +142,14 @@ h3{
   }
   
   .progress {
-    background-color: #fe8daa;
+    background-color: rgba(0, 48, 143);
     border-radius: 5px;
     height: 100%;
     width: 0%;
     transition: width 0.1s linear;
+  }
+
+  #recorded{
+      font-family: 'Lato';
   }
 
